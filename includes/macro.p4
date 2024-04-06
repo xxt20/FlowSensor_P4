@@ -1,0 +1,11 @@
+#define M1_IDX_WIDTH 10
+#define M2_IDX_WIDTH 10
+#define M3_IDX_WIDTH 10
+#define A_IDX_WIDTH 11
+#define A_SIZE 2048
+#define M_SIZE 3584
+#define M1_SIZE 1024
+#define M2_SIZE 1024
+#define M3_SIZE 1024
+#define DIGEST_WIDTH 16
+#define FINGERPRINT_WIDTH 32

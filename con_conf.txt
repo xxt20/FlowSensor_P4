@@ -1,0 +1,30 @@
+ucli
+pm
+show
+port-add 1/0 10G NONE
+port-add 3/0 10G NONE
+port-enb 1/0
+port-enb 3/0
+port-add 5/- 100G NONE
+port-add 7/- 100G NONE
+port-enb 5/-
+port-enb 7/-
+port-add 9/- 100G NONE
+port-add 11/- 100G NONE
+port-enb 9/-
+port-enb 11/-
+..
+bf_pltfm
+qsfp
+qsfp-lpmode-hw 1 0
+qsfp-lpmode-hw 3 0
+qsfp-lpmode-hw 5 0
+qsfp-lpmode-hw 7 0
+qsfp-lpmode-hw 9 0
+qsfp-lpmode-hw 11 0
+..
+..
+pm
+show
+exit
+exit
